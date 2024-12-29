@@ -1,0 +1,22 @@
+name: Astronomer - DBT Deploy code to Preview
+
+on:
+  pull_request:
+    branches:
+      - main
+
+env:
+  ## Sets Deployment API key credentials as environment variables
+  ASTRO_API_TOKEN: ${{ secrets.ASTRO_API_TOKEN }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to Deployment Preview
+      uses: astronomer/deploy-action@v0.9.0
+      with:
+        action: deploy-deployment-preview
+        deploy-type: dbt
+        deployment-id: cm599ylhw2mim01m7td16h2gr
+        root-folder: dbt
