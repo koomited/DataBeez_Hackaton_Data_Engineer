@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](#)
 [![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white)](#)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)](#)
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)](#)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](#)
 ![Awesome](https://img.shields.io/badge/Awesome-ffd700?logo=awesome&logoColor=black)
@@ -21,7 +21,7 @@
 
 ## Overview
 
-This project involves building a data pipeline to fetch and process daily weather data, including temperature, meteorological descriptions, pressure, and humidity, for Senegalese cities **Dakar** and **Thies**. The architecture is deployed using **Astronomer**, automated with **GitHub Actions**, and visualized in **Power BI** for insightful analysis.
+This project involves building a data pipeline to fetch and process daily weather data, including temperature, meteorological descriptions, pressure, and humidity, for Senegalese cities **Dakar** and **Thies**. The architecture is deployed using **Astronomer**, automated with **GitHub Actions**, and visualized in **Tableau** for insightful analysis.
 
 ---
 
@@ -29,7 +29,7 @@ This project involves building a data pipeline to fetch and process daily weathe
 
 - **Weather Data Pipeline**: A robust ETL pipeline that extracts, transforms, and loads weather data into a PostgreSQL database.
 - **Automation**: Seamless CI/CD pipeline implemented with GitHub Actions for deployment and monitoring.
-- **Visualization**: Power BI dashboards to visualize weather trends and insights.
+- **Visualization**: Tableau dashboards to visualize weather trends and insights.
 - **Scalability**: Deployed with Astronomer to handle production-grade workloads.
 
 ---
@@ -61,7 +61,7 @@ This project contains the following files and folders:
 1. **Apache Airflow**: Orchestrates the ETL pipeline.
 2. **Astronomer**: Manages scalable Airflow environments for production.
 3. **PostgreSQL**: Stores transformed data for querying and analysis.
-4. **Power BI**: Visualizes weather insights through interactive dashboards.
+4. **Tableau**: Visualizes weather insights through interactive dashboards.
 5. **GitHub Actions**: Automates workflows for CI/CD processes.
 6. **Docker**: Ensures consistency in the development and production environments.
 
@@ -74,7 +74,7 @@ This project contains the following files and folders:
 - **Docker** installed and running.
 - **Astronomer CLI** installed for local development.
 - **PostgreSQL** database set up with connection details.
-- **Power BI Desktop** for creating visualizations.
+- **Tableau Desktop** for creating visualizations.
 
 ### Setup Steps
 
@@ -92,7 +92,7 @@ This project contains the following files and folders:
    astro dev start
 ```
 4. Access the Airflow UI at http://localhost:8080 and trigger your DAGs.
-5. Use Power BI to connect to the PostgreSQL database for data visualization.
+5. Use Tableau to connect to the PostgreSQL database for data visualization.
 
 ---
 
