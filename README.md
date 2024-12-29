@@ -94,6 +94,8 @@ This project contains the following files and folders:
 4. Access the Airflow UI at http://localhost:8080 and trigger your DAGs.
 5. Use Power BI to connect to the PostgreSQL database for data visualization.
 
+---
+
 ## Future Enhancements
 - Expand Coverage:
     - Include more cities for weather data collection.
@@ -106,7 +108,9 @@ This project contains the following files and folders:
 
     - Leverage historical data to predict weather trends.
     - Use machine learning models for forecasting.
-  
+
+---
+
 ## Contribution Guidelines
 
 Contributions are welcome! If you'd like to contribute:
@@ -125,7 +129,9 @@ git commit -m "Add new feature"
 git push origin feature-name
 ```
 - Open a pull request for review.
-  
-- License
+
+---
+
+## License
 
     This project is licensed under the MIT License. See the LICENSE file for details.
