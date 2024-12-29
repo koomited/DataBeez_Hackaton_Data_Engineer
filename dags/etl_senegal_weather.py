@@ -41,7 +41,8 @@ default_args={
     default_args= default_args,
     start_date=datetime(2024, 12, 7),
     schedule="@hourly",
-    catchup=False
+    catchup=False,
+    tags=["meteo-data-etl"]
     )
 def extract_transform_load_weather_data():
         

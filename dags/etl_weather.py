@@ -40,7 +40,8 @@ with DAG(
     default_args= default_args,
     start_date=datetime(2024, 12, 7),
     schedule="@daily",
-    catchup=False
+    catchup=False,
+    tags=["simple-meteo-data-etl"]
     ) as dag:
     
     @task(multiple_outputs=True)
