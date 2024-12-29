@@ -15,7 +15,7 @@
 
 
 <a href="#">
-  <img width="100%" src="images/pipeline_weather.png" alt="Pipeline">
+  <img width="100%" src="images/pipeline_weather.svg" alt="Pipeline">
 </a>
 
 ## Overview
