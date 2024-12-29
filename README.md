@@ -15,11 +15,11 @@
 
 
 <a href="#">
-  <img width="100%" src="https://www.marisit.co.za/wp-content/uploads/2019/03/309211-scaled.jpg" alt="Cedit">
+  <img width="100%" src="images/pipeline_weather.png" alt="Pipeline">
 </a>
 
 ## Overview
-In this project, we build a data pipelne to fetch daily temperature, meteo descripton, pressure, humidity  for Senegal Cities: Dakar and Thies.  We deploy the whole architecture using **Astronomer** and visualized the collected data on power BI.
+In this project, we build a data pipelne to fetch daily temperature, meteo descripton, pressure, humidity  for Senegal Cities: Dakar and Thies.  We deploy the whole architecture using **Astronomer** and automate all the process using github actions. We finally visualize the collected data on power BI.
 
 
 ## Tasks Performed
